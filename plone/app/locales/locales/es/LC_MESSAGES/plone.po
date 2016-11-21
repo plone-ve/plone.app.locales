@@ -3,23 +3,24 @@
 # Alberto Serrano <alb.serrano@gmail.com>, 2004-2015
 # Pedro A. Gracia Fajardo <pedro@neuroomante.com>, 2002-2004
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2016
+# Jin Kadaba <talueses@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "POT-Creation-Date: 2016-08-20 09:37+0000\n"
-"PO-Revision-Date: 2016-11-14 12:16 -0400\n"
-"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2016\n"
+"PO-Revision-Date: 2016-11-20 20:14 -0400\n"
+"Last-Translator: Jin Kadaba <talueses@gmail.com>, 2016\n"
 "Language-Team: Spanish (https://www.transifex.com/plone/teams/14552/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language-Code: es\n"
-"Language-Name: Español\n"
-"Preferred-Encodings: utf-8\n"
 "Domain: plone\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 "Language: es\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Preferred-Encodings: utf-8\n"
 
 #: plone.locking/plone/locking/browser/locking.py:148
 msgid "$d day and $h hours"
@@ -646,11 +647,11 @@ msgstr "Agregar comportamiento de colección"
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:18
 msgid "Adds image and image caption fields"
-msgstr ""
+msgstr "Agrega campos de imagen y leyenda de imagen"
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:56
 msgid "Adds richtext behavior"
-msgstr ""
+msgstr "Agrega un comportamiento de texto enriquecido"
 
 #: plone.app.openid/plone/app/openid/configure.zcml:25
 msgid ""
@@ -701,7 +702,7 @@ msgstr ""
 
 #: plone.app.contenttypes/plone/app/contenttypes/browser/configure.zcml:45
 msgid "Album view"
-msgstr ""
+msgstr "Vista de álbum"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:52
 msgid "All Content"
@@ -747,11 +748,12 @@ msgid ""
 " you use the @@migrate-to-emaillogin page as a site admin. It is recommended"
 " to do that immediately after changing this option."
 msgstr ""
-"Permite a los nuevos usuarios iniciar la sesión con su dirección de correo electrónico, "
-"en lugar de especificar un identificador de usuario adicional. Los usuarios "
-"existentes pueden seguir utilizando su identificador de usuario hasta que "
-"utilice la página @@migrate-to-emaillogin como administrador del sitio. Se "
-"recomienda que lo haga de forma inmediata tras cambiar esta opción."
+"Permite a los nuevos usuarios iniciar la sesión con su dirección de correo "
+"electrónico, en lugar de especificar un identificador de usuario adicional. "
+"Los usuarios existentes pueden seguir utilizando su identificador de usuario"
+" hasta que utilice la página @@migrate-to-emaillogin como administrador del "
+"sitio. Se recomienda que lo haga de forma inmediata tras cambiar esta "
+"opción."
 
 #: plone.app.controlpanel/plone/app/controlpanel/security.py:29
 msgid ""
@@ -788,6 +790,8 @@ msgid ""
 "An Archetypeswidget to create persistent searchqueries. This is used by "
 "plone.app.collection."
 msgstr ""
+"Un widget Archetypes para crear búsquedas persistentes. Esto es usado por el"
+" paquete plone.app.collection."
 
 #: CMFPlone/profiles/default/types/Topic.xml
 msgid ""
@@ -1208,7 +1212,7 @@ msgstr ""
 
 #: plone.protect/plone/protect/confirm.pt:41
 msgid "Confirm action"
-msgstr ""
+msgstr "Corfirmar acción"
 
 #: plone.protect/plone/protect/confirm.pt:20
 msgid "Confirm that you'd like to perform this action."
@@ -1245,6 +1249,8 @@ msgstr "Listado de contenido"
 #: plone.app.contentmenu/plone/app/contentmenu/configure.zcml:11
 msgid "Content menu - contains contextual actions related to the content"
 msgstr ""
+"Menú contextual: contiene acciones contextuales relacionadas con el "
+"contenido"
 
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/controlpanel.pt:41
 msgid "Content rule settings updated."
@@ -1260,7 +1266,7 @@ msgstr "Las reglas de contenido han sido habilitadas de forma global"
 
 #: plone.formwidget.contenttree/plone/formwidget/contenttree/configure.zcml:32
 msgid "Content tree widget"
-msgstr ""
+msgstr "Widget de árbol de contenido"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/portaltype.py:24
 msgid "Content type"
@@ -1553,8 +1559,8 @@ msgid ""
 "be patient and check your logs for progress-information."
 msgstr ""
 "En función del número de arquetipos en su portal, puede que la migración "
-"dure <strong>mucho</strong> tiempo. Tenga paciencia y compruebe sus archivos logs "
-"para más información sobre el progreso de la migración."
+"dure <strong>mucho</strong> tiempo. Tenga paciencia y compruebe sus archivos"
+" logs para más información sobre el progreso de la migración."
 
 #: CMFPlone/profiles/default/portal_atct.xml
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
@@ -1726,6 +1732,8 @@ msgstr "Dublin Core"
 msgid ""
 "Dynamic, ajax-driven search results view with filtering and sorting support."
 msgstr ""
+"Visualización de resultados de búsqueda dinámica basada en ajax con soporte "
+"de filtrado y ordenamiento."
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:530
 msgid "E-Mail Address"
@@ -2781,7 +2789,7 @@ msgstr "Lanza el asistente de construcción de reglas."
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:18
 msgid "Lead Image"
-msgstr ""
+msgstr "Imagen principal"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 #: plone.app.querystring/plone/app/querystring/profiles/upgrades/to_5/registry.xml
@@ -2863,6 +2871,8 @@ msgid ""
 "Load all profiles from other packages/products that are needed for a full "
 "Plone site."
 msgstr ""
+"Cargue todos los perfiles de otros paquetes / productos necesarios para "
+"obtener un completo sitio Plone."
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:465
 msgid "Local Roles"
@@ -3064,7 +3074,7 @@ msgstr "Correo electrónicos de Administradores"
 
 #: CMFPlone/profiles.zcml:21
 msgid "Mandatory dependencies for a Plone site"
-msgstr ""
+msgstr "Dependencias obligatorias para un sitio Plone"
 
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups.py:36
 msgid "Many groups?"
@@ -3150,6 +3160,9 @@ msgid ""
 "is                    the registration of user-visible titles for these "
 "views"
 msgstr ""
+"Menú que muestra las vistas de Zope3 registradas para su uso como vistas "
+"dinámicas en el contenido de CMF. Actualmente el único propósito de este "
+"menú es el registro de títulos visibles para el usuario en estas vistas"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/logger.py:37
 #: plone.app.contentrules/plone/app/contentrules/actions/mail.py:48
@@ -3473,7 +3486,7 @@ msgstr "Objeto añadido a este contenedor"
 
 #: plone.app.contentrules/plone/app/contentrules/configure.zcml:72
 msgid "Object copied"
-msgstr ""
+msgstr "Objeto copiado"
 
 #: plone.app.contentrules/plone/app/contentrules/configure.zcml:66
 msgid "Object modified"
@@ -3808,7 +3821,7 @@ msgstr "Tema Clásico de Plone"
 
 #: plonetheme.classic/plonetheme/classic/configure.zcml:30
 msgid "Plone Classic Theme Uninstall Profile"
-msgstr ""
+msgstr "Perfil de desinstalación del tema clásico de Plone"
 
 #: CMFPlone/PloneControlPanel.py:69
 msgid "Plone Configuration"
@@ -3816,7 +3829,7 @@ msgstr "Configuración de Plone"
 
 #: CMFPlone/profiles.zcml:30
 msgid "Plone Initial Content"
-msgstr ""
+msgstr "Contenido inicial de Plone"
 
 #: ./plone.app.jquery/plone/app/jquery/configure.zcml
 msgid "Plone JQuery Integration"
@@ -3832,7 +3845,7 @@ msgstr "Sitio Plone"
 
 #: CMFPlone/profiles.zcml:39
 msgid "Plone Test Fixture"
-msgstr ""
+msgstr "Prueba Fixture de Plone"
 
 #: plone.app.controlpanel/plone/app/controlpanel/filter.py:280
 msgid ""
@@ -3884,7 +3897,7 @@ msgstr "Soporte de z3c.form en Plone"
 
 #: plone.app.search/plone/app/search/configure.zcml:14
 msgid "Plone's Advanced Search Form"
-msgstr ""
+msgstr "Formulario de búsqueda avanzada de Plone"
 
 #: plone/app/theming/interfaces.py:184
 msgid "Plugins on which this plugin depends"
@@ -3978,7 +3991,7 @@ msgstr "Perfil de los recursos de JQuery para Plone."
 
 #: CMFPlone/profiles.zcml:12
 msgid "Profile for a default Plone."
-msgstr ""
+msgstr "Perfil por defecto de Plone."
 
 #: CMFPlone/profiles/default/workflows/folder_workflow/definition.xml
 #: CMFPlone/profiles/default/workflows/plone_workflow/definition.xml
@@ -4071,29 +4084,31 @@ msgstr "Consulta no definida"
 
 #: plone.app.querystring/plone/app/querystring/profiles.zcml:21
 msgid "Querystring Upgrade profile to v3"
-msgstr ""
+msgstr "Perfil de actualización Querystring para la v3"
 
 #: plone.app.querystring/plone/app/querystring/profiles.zcml:30
 msgid "Querystring Upgrade profile to v5"
-msgstr ""
+msgstr "Perfil de actualización Querystring para la v5"
 
 #: plone.app.querystring/plone/app/querystring/profiles.zcml:12
 msgid ""
 "Querystring parser and builder, building block and transformer for the new "
 "style collections"
 msgstr ""
+"Parser y constructor de Querystring, bloque de construcción y transformador "
+"para los nuevos de estilos colecciones"
 
 #: plone.app.querystring/plone/app/querystring/profiles.zcml:12
 msgid "Querystring parser/builder"
-msgstr ""
+msgstr "Analizar/construir Querystring"
 
 #: archetypes.querywidget/archetypes/querywidget/configure.zcml:18
 msgid "Querywidget"
-msgstr ""
+msgstr "Widget de consulta"
 
 #: archetypes.querywidget/archetypes/querywidget/configure.zcml:26
 msgid "Querywidget (Test profile)"
-msgstr ""
+msgstr "Widget de consulta (Perfil de prueba)"
 
 #: plone.app.controlpanel/plone/app/controlpanel/ram.py:77
 msgid "RAM Cache Settings"
@@ -4311,7 +4326,7 @@ msgstr "Texto Enriquecido"
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:56
 msgid "RichText"
-msgstr ""
+msgstr "Texto enriquecido"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:281
 msgid "Rights"
@@ -4930,6 +4945,7 @@ msgstr "Tema Sunburst"
 #: plonetheme.sunburst/plonetheme/sunburst/configure.zcml:22
 msgid "Sunburst is a modern, minimalist, grid-based theme for Plone 4."
 msgstr ""
+"Sunburst es un tema moderno, minimalista, basado en grillas para Plone 4."
 
 #: CMFPlone/profiles/default/actions.xml
 #: CMFPlone/profiles/default/controlpanel.xml
@@ -5051,19 +5067,25 @@ msgstr "El usuario no tiene dirección de correo."
 #: plone.app.contentmenu/plone/app/contentmenu/configure.zcml:19
 msgid "The 'actions' menu - allows the user to execute actions on an object"
 msgstr ""
+"El menú 'acciones' - permite al usuario ejecutar acciones en un objeto"
 
 #: plone.app.contentmenu/plone/app/contentmenu/configure.zcml:31
 msgid ""
 "The 'add' menu - allows the user to add new content items in the context"
 msgstr ""
+"El menú 'agregar nuevo' - permite al usuario añadir nuevos elementos de "
+"contenido en el contexto"
 
 #: plone.app.contentmenu/plone/app/contentmenu/configure.zcml:25
 msgid "The 'display' menu - allows the user to select the view of an object"
 msgstr ""
+"El menú 'mostrar' - permite al usuario seleccionar la vista de un objeto"
 
 #: plone.app.contentmenu/plone/app/contentmenu/configure.zcml:37
 msgid "The 'workflow' menu - allows the user to execute workflow transitions"
 msgstr ""
+"El menú 'estado' - permite al usuario ejecutar transiciones de flujo de "
+"trabajo"
 
 #: CMFPlone/profiles/default/workflows/folder_workflow/definition.xml
 #: CMFPlone/profiles/default/workflows/intranet_folder_workflow/definition.xml
@@ -5767,11 +5789,12 @@ msgstr "Deshacer"
 
 #: plonetheme.classic/plonetheme/classic/configure.zcml:30
 msgid "Uninstall profile for Plone Classic theme."
-msgstr ""
+msgstr "Desinstalar el perfil para el tema clásico de Plone."
 
 #: CMFPlone/skins/plone_scripts/folder_paste.cpy:49
 msgid "Unknown error occured. Please check your logs"
-msgstr "Ha ocurrido un error desconocido. Por favor, compruebe sus archivos logs"
+msgstr ""
+"Ha ocurrido un error desconocido. Por favor, compruebe sus archivos logs"
 
 #: plone.locking/plone/locking/browser/info.pt:35
 msgid "Unlock"
@@ -5843,7 +5866,7 @@ msgstr "Find de sesión de usuario"
 
 #: plone.app.contentrules/plone/app/contentrules/configure.zcml:102
 msgid "User Removed"
-msgstr ""
+msgstr "Usuario eliminado"
 
 #: plone.app.users/plone/app/users/browser/register.py:642
 msgid "User added."
@@ -5932,7 +5955,7 @@ msgstr "Ver Imagen"
 
 #: plone.app.contenttypes/plone/app/contenttypes/browser/configure.zcml:185
 msgid "View Image Fullscreen"
-msgstr ""
+msgstr "Ver imagen en pantalla completa"
 
 #: plone.app.contenttypes/plone/app/contenttypes/browser/configure.zcml:194
 msgid "View Link"
@@ -6010,8 +6033,8 @@ msgid ""
 "currently using. This is a dangerous situation. Please upgrade your Plone "
 "version as soon as possible."
 msgstr ""
-"¡ADVERTENCIA! Su base de datos requiere una versión de Plone más reciente que"
-" la que está utilizando. Esta es una situación peligrosa. Por favor, "
+"¡ADVERTENCIA! Su base de datos requiere una versión de Plone más reciente "
+"que la que está utilizando. Esta es una situación peligrosa. Por favor, "
 "actualice su versión de Plone tan pronto como sea posible."
 
 msgid "WAV audio"
@@ -6359,6 +6382,8 @@ msgstr "Opciones de mantenimiento del sitio y del servidor Zope."
 #: plone.app.contentmenu/plone/app/contentmenu/configure.zcml:104
 msgid "Zope3 Views used as selectable content views"
 msgstr ""
+"Las vistas utilizadas en Zope3 son usadas como vistas de contenido "
+"seleccionables"
 
 #. Default: "Open a preview of the theme in a new window. Forms will be
 #. disabled in the preview."
@@ -7069,8 +7094,8 @@ msgid "description_edit_groupproperties"
 msgstr ""
 "Los grupos son colecciones lógicas de usuarios, como un departamento o una "
 "oficina.No están directamente ligados a permisos en un nivel global, así que"
-" normalmente use los Roles para eso - y permita que ciertos Grupos tengan un "
-"rol particular."
+" normalmente use los Roles para eso - y permita que ciertos Grupos tengan un"
+" rol particular."
 
 #. Default: "This information, also referred to as <em>metadata</em> is the
 #. collection of information that is used to categorize an object, assign
@@ -7147,8 +7172,8 @@ msgid "description_groups_management"
 msgstr ""
 "Los grupos son colecciones lógicas de usuarios, como un departamento o una "
 "oficina.No están directamente ligados a permisos en un nivel global, así que"
-" normalmente use los Roles para eso - y permita que ciertos Grupos tengan un "
-"rol particular."
+" normalmente use los Roles para eso - y permita que ciertos Grupos tengan un"
+" rol particular."
 
 #. Default: "The symbol ${image_link_icon} indicates a role inherited from
 #. membership in another group."
@@ -7560,8 +7585,8 @@ msgstr ""
 #: CMFPlone/skins/plone_login/failsafe_login_form.cpt:24
 msgid "description_sign_in"
 msgstr ""
-"Para acceder a esta parte del sitio, necesita identificarse usando su nombre "
-"y contraseña."
+"Para acceder a esta parte del sitio, necesita identificarse usando su nombre"
+" y contraseña."
 
 #. Default: "Here is the full error message:"
 #: CMFPlone/skins/plone_templates/default_error_message.pt:165
@@ -7634,9 +7659,9 @@ msgstr ""
 #: plone.app.openid/plone/app/openid/skins/ploneopenid/login_failed.cpt:51
 msgid "description_still_failure_reason1"
 msgstr ""
-"Podría estar ejecutándose algún programa de filtrado web que deshabilita las "
-"cookies. Si así fuera, sería necesario que configurara ese programa para que"
-" acepte cookies de ${url}"
+"Podría estar ejecutándose algún programa de filtrado web que deshabilita las"
+" cookies. Si así fuera, sería necesario que configurara ese programa para "
+"que acepte cookies de ${url}"
 
 #. Default: "Your computer may be behind a firewall or proxy server that
 #. prevents cookies from being sent to or from your browser. If so, you will
@@ -9244,8 +9269,8 @@ msgstr "Uno de los tipos de portal registrados"
 msgid "help_portrait"
 msgstr ""
 "Para agregar su foto, haga clic en el botón <strong>Navegar</strong> y "
-"seleccione una foto suya. El tamaño recomendado es de 75 puntos de largo por "
-"100 puntos de alto."
+"seleccione una foto suya. El tamaño recomendado es de 75 puntos de largo por"
+" 100 puntos de alto."
 
 #. Default: "Your preferred language."
 #: CMFPlone/skins/plone_deprecated/personalize_form.cpt:161
@@ -9294,8 +9319,8 @@ msgstr ""
 msgid "help_remember_my_name"
 msgstr ""
 "Marcando la opción 'Recordar mi nombre' hará que el navegador guarde una "
-"cookie con su nombre de usuario. Cuando usted regrese al sitio más tarde, su "
-"nombre de usuario aparecerá automáticamente."
+"cookie con su nombre de usuario. Cuando usted regrese al sitio más tarde, su"
+" nombre de usuario aparecerá automáticamente."
 
 #. Default: "If body text available for item, render it, otherwise use
 #. description."
@@ -12598,7 +12623,7 @@ msgstr "plone.app.iterate: Prueba fixture"
 
 #: plone.formwidget.datetime/plone/formwidget/datetime/configure.zcml:25
 msgid "plone.formwidget.datetime default profile"
-msgstr ""
+msgstr "perfil por defecto plone.formwidget.datetime"
 
 #: plone.protect/plone/protect/configure.zcml:31
 msgid "plone.protect configuration"
